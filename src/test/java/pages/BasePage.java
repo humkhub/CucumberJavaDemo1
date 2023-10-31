@@ -18,4 +18,7 @@ public class BasePage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
+    public void CloseBrowser(){
+        driver.close();
+    }
 }
